@@ -320,17 +320,17 @@ span.line {
     counter-reset: tableCounterEX;
 }
 
-#ex-table>tbody>tr:nth-child(2)>.counter-cell::before {
+#ex-table>tbody>tr:nth-child(1)>.counter-cell::before {
     content: "🏆" counter(tableCounterEX);
     counter-increment: tableCounterEX;
 }
 
-#ex-table>tbody>tr:nth-child(3)>.counter-cell::before {
+#ex-table>tbody>tr:nth-child(2)>.counter-cell::before {
     content: "🥈" counter(tableCounterEX);
     counter-increment: tableCounterEX;
 }
 
-#ex-table>tbody>tr:nth-child(4)>.counter-cell::before {
+#ex-table>tbody>tr:nth-child(3)>.counter-cell::before {
     content: "🥉" counter(tableCounterEX);
     counter-increment: tableCounterEX;
 }
